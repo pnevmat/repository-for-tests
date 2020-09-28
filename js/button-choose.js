@@ -9,12 +9,7 @@ const appsCardsRef = document.querySelectorAll('li[app]');
 const designCardsRef = document.querySelectorAll('li[design]');
 const marketingCardsRef = document.querySelectorAll('li[marketing]');
 
-
 let listLength;
-
-// console.log(typeof(listLength));
-// console.log(allButtonRef);
-// console.log(designCardsRef[0]);
 
 webSitesButtonRef.addEventListener('click', () => {
     listLength = appsCardsRef.length;
