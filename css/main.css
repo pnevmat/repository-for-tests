@@ -34,4 +34,12 @@ ul {
   display: none;
   pointer-events: none;
 }
+
+.bg-image {
+  width: 100%;
+  max-width: 375px;
+  height: 200px;
+  background-image: url("../img/what-in-trend-bg-image.jpg");
+  background-size: cover;
+}
 /*# sourceMappingURL=main.css.map */
